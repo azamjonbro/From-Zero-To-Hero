@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Background Attachment Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f0f0f0;
+    }
+
+    .container {
+      display: flex;
+      gap: 20px;
+    }
+
+    .box {
+      width: 45%;
+      height: 300px;
+      border: 2px solid #333;
+      color: white;
+      padding: 10px;
+      overflow: auto; /* scroll chiqishi uchun */
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .fixed {
+      background-image: url("https://picsum.photos/id/1016/600/400");
+      background-attachment: fixed;
+    }
+
+    .local {
+      background-image: url("https://picsum.photos/id/1016/600/400");
+      background-attachment: local;
+    }
+
+    .content {
+      height: 800px; /* scroll chiqishi uchun uzun kontent */
+    }
+  </style>
+</head>
+<body>
+  <h1>Background Attachment: Fixed vs Local</h1>
+  <div class="container">
+    <div class="box fixed">
+      <h2>Fixed</h2>
+      <div class="content">
+        Scroll qiling 👇<br>
+        Fon ekranga qotib qoladi,<br>
+        faqat matn siljiydi.
+      </div>
+    </div>
+
+    <div class="box local">
+      <h2>Local</h2>
+      <div class="content">
+        Scroll qiling 👇<br>
+        Fon ham matn bilan birga<br>
+        ichkarida siljiydi.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
