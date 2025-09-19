@@ -11,4 +11,4 @@ bundan kelib chiqadiki html dagi barcha malumotlarni browser ostidagi [```screen
 
 shundan kelib chiqadiki bizning html sahifada foydalanuvchilar korishi uchun eng yaxshi format va eng yaxshi belgilash tili hisoblanadi.
 
-
+[Html nimalardan tashkil topadi](https://github.com/azamjonbro/from-zero-to-hero/HTML/)
