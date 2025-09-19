@@ -6,7 +6,7 @@ Keling buni chuqurroq korib chiqamiz.
 
 ## background: vs background-image: farqi
 
-bizda ```background``` va ````background-image``` ni bir qancha farqi bor va mendan bazida sorashadi qaysi biri yashiroq va afzalroq. men bu vaqtda shunday tushuntiraman.
+bizda ```background``` va ```background-image``` ni bir qancha farqi bor va mendan bazida sorashadi qaysi biri yashiroq va afzalroq. men bu vaqtda shunday tushuntiraman.
 
 agar siz bir elementga bir vaqtda rasm va rasm qanday joylashuvi uning kattaligi va uning attachmentini korsatmoqchi bolsangiz siz backgrounddan foydalanishingiz kerak.
 
