@@ -3,11 +3,16 @@ Biz siz bilan frontedn asoslarini o'rganishimiz kerak. Va bu yerda biz sizlar bi
 
 Qani bo'lmasam boshladik.
 
-[HTML]()
+[HTML]() 
+
 [CSS]()
+
 [JavaScript]()
+
 [Ajax]()
+
 [Vite -> webpack]()
+
 [Jquery vs freamworks]()
 
 
