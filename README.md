@@ -17,3 +17,4 @@ Qani bo'lmasam boshladik.
 
 
 
+## copyright by [HAYOTBEK AKA](https://github.com/Hayotbek-Turgunov)
