@@ -11,4 +11,8 @@ bundan kelib chiqadiki html dagi barcha malumotlarni browser ostidagi [```screen
 
 shundan kelib chiqadiki bizning html sahifada foydalanuvchilar korishi uchun eng yaxshi format va eng yaxshi belgilash tili hisoblanadi.
 
-[Html nimalardan tashkil topadi](https://github.com/azamjonbro/from-zero-to-hero/HTML/)
+[Html nimalardan tashkil topadi](https://github.com/azamjonbro/From-Zero-To-Hero/blob/main/HTML/HTML-structures/README.MD)
+[Html Taglari bilan tanishish](https://github.com/azamjonbro/From-Zero-To-Hero/blob/main/HTML/HTML-structures/README.MD)
+[Video and Media tags](https://github.com/azamjonbro/From-Zero-To-Hero/blob/main/HTML/HTML-structures/README.MD)
+[Html nimalardan tashkil topadi](https://github.com/azamjonbro/From-Zero-To-Hero/blob/main/HTML/HTML-structures/README.MD)
+[SEO Search](https://github.com/azamjonbro/From-Zero-To-Hero/blob/main/HTML/HTML-structures/README.MD)
