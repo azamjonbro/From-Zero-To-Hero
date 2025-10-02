@@ -69,3 +69,12 @@ va bir qancha muammolarga olib keladi.
 demak biz har doim html 5-chi versiyada yozishimiz kerak sababi u hozirgi kunda eng yaxshi ishlayotgan versiya hisoblanadi.
 
 bu dokumnetatsiya 2025-yil sentabr oyida yozildi.
+
+
+Keyingi havolalar:
+["HTML taglar"]()
+["HTML attributelar"]()
+["HTML best practices"]()
+["HTML accessibility"]()
+
+
