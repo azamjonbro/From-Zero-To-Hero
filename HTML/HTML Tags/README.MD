@@ -27,3 +27,59 @@ Quyidagi taglar matnni turli usullarda ko'rsatish uchun ishlatiladi:
 Bu taglarning barchasi oddiy matnni turli ko'rinishda chiqarish uchun ishlatiladi.
 
 
+## HTML taglar: Blok va Inline
+
+HTML taglari ikki asosiy turga bo'linadi: **blok** va **inline**.
+
+### Blok taglar
+
+Blok taglar har doim yangi qatordan boshlanadi va butun kenglikni egallaydi. Ular ichida boshqa taglar ham bo'lishi mumkin. Eng ko'p ishlatiladigan blok taglar:
+
+- `<div>` — umumiy konteyner, bo'lim yaratish uchun.
+- `<p>` — paragraf, matn bo'lagi.
+- `<h1>`, `<h2>`, ... `<h6>` — sarlavhalar.
+- `<ul>`, `<ol>`, `<li>` — ro'yxatlar.
+- `<table>` — jadval.
+
+### Inline taglar
+
+Inline taglar esa faqat o'z joyini egallaydi va yangi qatordan boshlanmaydi. Tepada ko'rib chiqqan `<b>`, `<i>`, `<u>`, `<em>`, `<strong>` va `<del>` taglari inline hisoblanadi.
+
+**Xulosa:**  
+Blok taglar butun kenglikni egallaydi va yangi qatordan boshlanadi, inline taglar esa faqat o'z joyida ko'rinadi va matn ichida ishlatiladi.
+
+## HTML taglarni birga ishlatish
+
+Ko'pincha blok va inline taglar birga ishlatiladi. Masalan, paragraf ichida matnni qalin yoki kursiv qilish mumkin:
+
+```html
+<p>Bu <b>qalin</b> va <i>kursiv</i> matn.</p>
+```
+
+Natija:  
+Bu **qalin** va *kursiv* matn.
+
+## Amaliy misol
+
+Quyidagi kodda blok va inline taglar birga ishlatilgan:
+
+```html
+<div>
+ <h2>HTML taglar misoli</h2>
+ <p>Bu <strong>muhim</strong> va <em>urg'uli</em> matn.</p>
+ <ul>
+  <li><u>Tagi chiziqli</u> element</li>
+  <li><del>O'chirilgan</del> element</li>
+ </ul>
+</div>
+```
+
+Bu misolda `<div>` blok sifatida, `<h2>`, `<p>`, `<ul>` va `<li>` ham blok taglar, `<strong>`, `<em>`, `<u>`, `<del>` esa inline taglar sifatida ishlatilgan.
+
+## Foydali maslahatlar
+
+- Har bir tagning vazifasini va joyini to'g'ri tanlang.
+- Blok taglar ichida inline taglarni ishlatish mumkin.
+- HTML kodni toza va tartibli yozishga harakat qiling.
+
+Keyingi bosqichda har bir tagning atributlari va ularni qanday ishlatish haqida o'rganamiz.
