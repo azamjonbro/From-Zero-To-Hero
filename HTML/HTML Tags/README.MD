@@ -83,3 +83,58 @@ Bu misolda `<div>` blok sifatida, `<h2>`, `<p>`, `<ul>` va `<li>` ham blok tagla
 - HTML kodni toza va tartibli yozishga harakat qiling.
 
 Keyingi bosqichda har bir tagning atributlari va ularni qanday ishlatish haqida o'rganamiz.
+
+
+## HTML taglarni qanday ishlatish
+
+HTML taglarni ishlatish juda oddiy. Har bir tag ochuvchi (`<tag>`) va yopuvchi (`</tag>`) shaklda yoziladi. Matn yoki boshqa elementlar shu taglar orasida joylashadi.
+
+### Oddiy misollar
+
+```html
+<p>Bu oddiy paragraf matni.</p>
+<b>Bu qalin matn.</b>
+<i>Bu kursiv matn.</i>
+<u>Bu tagi chiziqli matn.</u>
+```
+
+### Bir nechta taglarni birga ishlatish
+
+Taglarni birga ishlatib, matnga turli ko'rinish berish mumkin:
+
+```html
+<p>Bu <b>qalin</b> va <i>kursiv</i> matn.</p>
+```
+
+### Blok va inline taglarni birga ishlatish
+
+Blok taglar ichida inline taglarni ishlatish keng tarqalgan:
+
+```html
+<div>
+ <h3>Misol sarlavhasi</h3>
+ <p><strong>Muhim</strong> va <em>urg'uli</em> matn.</p>
+</div>
+```
+
+### HTML fayl tuzilmasi
+
+HTML kodni to'g'ri ishlatish uchun uni to'liq fayl ko'rinishida yozish mumkin:
+
+```html
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>HTML taglar misoli</title>
+ </head>
+ <body>
+  <h1>Salom, HTML!</h1>
+  <p>Bu <b>qalin</b> va <i>kursiv</i> matn.</p>
+ </body>
+</html>
+```
+
+**Eslatma:**  
+Har bir tagni to'g'ri ochib-yoping va ichki tartibga e'tibor bering.
+
+Endi siz HTML taglarni qanday ishlatishni bilasiz!
