@@ -22,7 +22,7 @@ CSS specificity quyidagi formatda baholanadi:
 
 ------------------------------------------------------------------------
 
-## 🔢 Specificity Hisoblash
+## Specificity Hisoblash
 
 ### 1. Inline style
 
@@ -45,7 +45,7 @@ CSS specificity quyidagi formatda baholanadi:
 
 ------------------------------------------------------------------------
 
-## 🧠 Specificity Qoidalari
+## Specificity Qoidalari
 
 ### 1. Specificity baland bo'lsa --- o'sha qoida yutadi
 
@@ -117,7 +117,7 @@ turli xil turlarga ega bo'lib, har biri o'ziga xos vazifalarni bajaradi.
 CSS’da elementlar o‘zaro munosabatiga asoslanib target qilinadi.
 ## 5.1. Descendant Selector (`A B`)
 
-```css
+```css  
 div p { color: blue; }
 ```
 * **Meaning**: `div` ichidagi *har qanday chuqurlikdagi* `p`.
